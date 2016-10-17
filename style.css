@@ -1,0 +1,297 @@
+
+.container {
+	width: 100%;
+	/* background-color: #FFB52F; */
+	background-image: url("background.jpg");
+} 
+
+
+
+
+
+
+header {
+	width: 100%;
+	box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, .2);
+	background-color: #b31212;
+}
+
+.headerleft {
+	width: 28%;
+	float: left;
+	padding-left: 10px;
+}
+
+.logoimg {
+	width: 100%;
+	margin-top: 20px;
+}
+
+
+.headerright {
+	width: 70%;
+	float: right;
+	text-align: center;
+}
+
+.nameheader {
+	margin-top: 15px;
+	font-size: 3vw;
+}
+
+.notificationimg {
+	width: 7%;
+}
+
+
+
+.cleaner {
+	clear: both;
+}
+
+
+
+
+
+
+nav {
+	/* background-color: #FFB52F; */
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+
+ul.menuul {
+    list-style: none;
+    text-align: center;
+    margin-left: -40px;
+}
+
+li.menuli {
+	 display: inline-block;
+	 font-size: 20px;
+}
+
+li a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #781818;
+	background-color: #d92222;
+	border-radius: 10px;
+}
+
+.logoa:hover {
+	background-color: #FFB52F;
+}
+
+
+.menuli2 {
+	border-left: solid black 2px;
+	border-right: solid black 2px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.menuli3 {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.menuli1 {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.menuli:hover {
+	color: #781818;
+	background-color: #d92222;
+	border-radius: 10px;
+}
+
+.menuli2:hover {
+	color: #781818;
+	background-color: #d92222;
+	border-radius: 10px;
+}
+
+
+/*
+ul.menuul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.menuli {
+    float: left;
+}
+
+li.menuli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.menuli a:hover {
+    background-color: #111;
+}
+*/
+
+
+
+
+
+
+.tasks {
+	border: solid #c01313 4px;
+	background-color: #FFA800;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, .2) inset;
+}
+
+.nexttasks {
+	width: 30%;
+	float: left;
+	padding-top: 20px;
+	text-align: right;
+	padding-left: 3px;
+}
+
+.listtasks {
+	width: 70%;
+	float: right;
+	padding-top: 25px;
+}
+
+.taskli {
+	font-size: 20px;
+}
+
+
+
+
+.ticket {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.ticketimg {
+	width: 70%;
+	max-width: 800px;
+	margin-top: 20px;
+}
+
+.progressbar {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 20px;
+}
+
+.tickettext {
+	margin-top: -10px;
+}
+
+.freetickettxt {
+	margin-top: -30px;
+}
+
+.progressbarcss {
+	border-radius: 20px;
+	background-color: red !important;
+}
+
+.progressbarcss2 {
+	border-radius: 20px;
+}
+
+
+footer {
+	background-color: #FFA800;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
+.todo1 {
+	background: #ffe5e5;
+    margin: 7px;
+    margin-top: 11px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.todo2{
+	background: #cce5ff;
+    margin: 7px;
+    margin-top: 11px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.c1 {
+    background: #ffe5e5;
+    margin: 7px;
+    margin-top: 11px; 
+    list-style: none;
+    border-radius: 20px;
+    margin-left: -33px;
+    padding-left: 20px;
+}
+
+.c2 {
+    background: #cce5ff;
+    margin: 7px;
+    margin-top: 11px;
+    list-style: none;
+    border-radius: 20px;
+    margin-left: -33px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footerbutton {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #FF7622;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.footerbutton:hover {background-color: #3e8e41}
+
+.footerbutton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+

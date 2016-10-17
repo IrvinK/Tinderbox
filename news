@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tinderbox volunteer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<header>
+			<div class="headerleft">
+				<a href="index.html" class="logoa">
+					<img src="logoimg.png" alt="logo" class="logoimg">
+				</a>
+			</div>
+
+
+
+			<div class="headerright">
+			<h1 class="nameheader">
+				Irvin Kubat 
+				<img src="notificationimg.png" alt="notification" class="notificationimg">
+			</h1>
+			</div>
+
+		</header>
+				<div class="cleaner">
+				</div>
+		<nav>
+		<ul class="menuul">
+			<li class="menuli menuli1"> <a href="news"> News     </a> </li>
+			<li class="menuli menuli2"> <a href="schedule"> Schedule </a> </li>
+			<li class="menuli menuli3"> <a href="#"> Groups   </a> </li>
+		</ul>
+		</nav>
+		<div class="news">
+			<ul>
+				<li class="c1"> The food will be delayed for about 30 minutes. Sorry. </li>
+				<li class="c2"> Some of you please write to your manager. Help is needed at food tent </li>
+				<li class="c1">  </li>
+				<li class="c2"> news 4 </li>
+				<li class="c1"> news 5 </li>
+				<li class="c2"> news 6 </li>
+				<li class="c1"> news 7 </li>
+				<li class="c2"> news 8 </li>
+				<li class="c1"> news 9 </li>
+			</ul>
+		</div>
+		<footer>
+			<button class="footerbutton">Message to supervisor</button>	
+		</footer>
+
+
+
+
+
+</body>
